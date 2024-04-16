@@ -12,4 +12,7 @@
         <attr name="matchesCount" format="integer" />
         <attr name="imageUrl" format="string" />
     </declare-styleable>
+    <declare-styleable name="MovieSelectionCustomView">
+        <attr name="imageUrlSelection" format="string" />
+    </declare-styleable>
 </resources>

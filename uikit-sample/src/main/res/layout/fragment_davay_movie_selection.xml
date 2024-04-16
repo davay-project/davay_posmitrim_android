@@ -3,13 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ui.fragments.DavayMovieSelectionFragment">
 
-    <TextView
+    <com.davayposmoritm.uikit.views.MovieSelectionCustomView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Davay Movie Selection View"
-        android:textSize="32sp"
-        android:gravity="center"/>
-
+        android:layout_height="wrap_content"
+        app:imageUrlSelection="https://kartinki.pics/pics/uploads/posts/2022-08/thumbs/1659637411_3-kartinkin-net-p-zastavka-filma-krasivo-3.jpg" />
 </FrameLayout>
